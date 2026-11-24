@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mama Njeri</title>
+
+    <style>
+      .food-image {
+        width: 85px;
+        height: auto;
+      }
+
+      .images {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Menu Table -->
+    <table border="1">
+      <caption>
+        MENU
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Dish</th>
+          <th>Price</th>
+          <th>Sample Image</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Pilau</td>
+          <td>Ksh 550</td>
+          <td>
+            <img
+              class="food-image"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.nB2F9h-h4_FQ0Cwd7EPOpgHaEo%3Fr%3D0%26pid%3DApi&f=1&ipt=b6e15145caf60afe6ecf378eb3abdcff39a62cb123370b5b3a3e83a92a717e2c&ipo=images"
+              alt="Pilau"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Ugali &amp; Sukuma</td>
+          <td>Ksh 350</td>
+          <td>
+            <img
+              class="food-image"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.uVVft14QFYD4VI2Tm5utvwHaLG%3Fr%3D0%26pid%3DApi&f=1&ipt=5b6c78266780fc20ed47435bb182026cffc7689ea0e42da9070ab2a9ffedb2ff&ipo=images"
+              alt="Ugali and Sukuma"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Chapati (2)</td>
+          <td>Ksh 40</td>
+          <td>
+            <img
+              class="food-image"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4RkKEP0kCM5ZFhk1nl4H8AHaHa%3Fpid%3DApi&f=1&ipt=7d3430816b39e09065df61ed4ffb40a66a3a4681fd2c875bb5526b2107b12868&ipo=images"
+              alt="Chapati"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Images Section -->
+    <h3>Images</h3>
+
+    <div class="images">
+      <img
+        class="food-image"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.nB2F9h-h4_FQ0Cwd7EPOpgHaEo%3Fr%3D0%26pid%3DApi&f=1&ipt=b6e15145caf60afe6ecf378eb3abdcff39a62cb123370b5b3a3e83a92a717e2c&ipo=images"
+        alt="Pilau"
+      />
+
+      <img
+        class="food-image"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.uVVft14QFYD4VI2Tm5utvwHaLG%3Fr%3D0%26pid%3DApi&f=1&ipt=5b6c78266780fc20ed47435bb182026cffc7689ea0e42da9070ab2a9ffedb2ff&ipo=images"
+        alt="Ugali and Sukuma"
+      />
+
+      <img
+        class="food-image"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4RkKEP0kCM5ZFhk1nl4H8AHaHa%3Fpid%3DApi&f=1&ipt=7d3430816b39e09065df61ed4ffb40a66a3a4681fd2c875bb5526b2107b12868&ipo=images"
+        alt="Chapati"
+      />
+    </div>
+
+    <!-- Student Registration Form -->
+    <h3>Forms</h3>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Student Registration Form</legend>
+
+        <!-- First Name -->
+        <label for="firstname">First Name:</label>
+
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Enter Your first name"
+          required
+        />
+
+        <br /><br />
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+
+        <input
+          type="password"
+          name="pass"
+          id="password"
+          placeholder="Enter Your password"
+          required
+        />
+
+        <br /><br />
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+
+    <!-- Inline CSS Styling -->
+    <p style="color: red; background-color: skyblue">Inline CSS styling</p>
+  </body>
+</html>
